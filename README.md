@@ -1,6 +1,10 @@
 Music files, written with Lilypond
 
-Silent Worship: An arrangement of a Handel Aria by Arthur Somervell. The song was performed by Gwyneth Paltrow and Ewam McGregor in the film of Jane Austen's Emma.
+Each piece has a Lilypond file (.ly) and a pdf file. 
+
+The songs are set in a key suitable for low voice, alto or baritone.
+
+Silent Worship: An arrangement of a Handel Aria by Arthur Somervell. The song was performed by Gwyneth Paltrow and Ewan McGregor in the 1996 film of Jane Austen's Emma.
 
 Lascia Ch'io Pianga: another famous Handel aria, from the opera Rinaldo.
 
