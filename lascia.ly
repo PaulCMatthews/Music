@@ -51,13 +51,13 @@
           < g c e>2 <g c e>2 r4 <g c e>4 < a c f>2 < a c f>2 r2 
           < d c g>2 <b d g>2 r4 <b d f>4 << {<g c>2 <g c>2}{ f'4 e4 e2}>> r2
           <c f a>2 <d f a> b'4 c8 d8 <b, d g>2 <c g'>2 r4 c'
-          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 <g c > <f b > e1.} >> 
+          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 c <b f > e,1.} >> 
           % Lascia
           \repeat segno 2{
           < c, e>2 < c e>2 r4 <c e> < a c f>2 < a c f>2 r4 <a c f>
           < d c g>2 <b d g>2. <b d f>4 < g c f>2 <g c e> r2
           <c f a>2 <d f a> b'4 c8 d8 <b, d g>2 <c g'>2 r4 c'
-          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 <g c > <f b > e1.} >>
+          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 c <b f> e,1.} >>
           % Eche
           <g, c>2 <c e >2. <c e>4 <a d>2 <a fs> r2 <d fs>2 <d fs>2. <d fs>4 <b e>2 <c e>2 r4 e
           <d g >1 <<{fs2}{c4 (b4)}>> <b g'>1.
@@ -65,17 +65,17 @@
           < c e>2 < c e>2 r4 <c e> < a c f>2 < a c f>2 r2
           < d c g>2 <b d g>2. <b d f>4 < g c f>2 <g c e> r2
           <c f a>2 <d f a> b'4 c8 d8 <b, d g>2 <c g'>2 r4 c'
-          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 <g c > <f b > e1.} >> 
+          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 c <b f> e,1.} >> 
           % Intro again
           <g, c e>2 <g c e>2 r4 <g c e> < a c f>2 < a c f>2 r2 
           < d c g>2 <b d g>2 r4 <b d f>4 << {<g c>2 <g c>2}{ f'4 e4 e2}>> r2
           <c f a>2 <d f a> b'4 c8 d8 <b, d g>2 <c g'>2 r4 c'
-          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 <g c > <f b > e1.} >>   \fine   
+          << \relative{e'4 d4 e2 d4 c4 c1. } \relative{<a c>2 c <b f> e,1.} >>   \fine   
           % Il duolo, no tune doubling
           <a, c>2 <a e'>2. <d f>4  <b e>2 <gs b>2 r2 a <a c> <d f> <c e> <e a> r2
           % De miei
           <d fs>1 <d fs>2 <<{g4 fs e2} {d2 b2}>> r2<c e> <c e> <d fs> <<{d4 ds4}{b2}>> <g c> r2
-          <a c e>2 <c e a> r2 <b e ><a ds> r4 << { b4 b4 c b1 }{ fs'4 e1 ds2 } >> e1.
+          <a c e>2 <c e a> r2 <b e ><a ds> r4 << { b4 b4( c) b1 }{ fs'4 e1 ds2 } >> e1.
           % Something a bit wrong here. Lilypond gives a warning warning: 
           % "adding note head to incompatible stem (type = 1/4)"
           % and also tries to put a stem on the E breve in the penultimate bar?
