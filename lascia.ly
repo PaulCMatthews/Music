@@ -75,10 +75,7 @@
           <a, c>2 <a e'>2. <d f>4  <b e>2 <gs b>2 r2 a <a c> <d f> <c e> <e a> r2
           % De miei
           <d fs>1 <d fs>2 <<{g4 fs e2} {d2 b2}>> r2<c e> <c e> <d fs> <<{d4 ds4}{b2}>> <g c> r2
-          <a c e>2 <c e a> r2 <b e ><a ds> r4 << { b4 b4( c) b1 }{ fs'4 e1 ds2 } >> e1.
-          % Something a bit wrong here. Lilypond gives a warning warning: 
-          % "adding note head to incompatible stem (type = 1/4)"
-          % and also tries to put a stem on the E breve in the penultimate bar?
+          <a c e>2 <c e a> r2 <b e ><a ds> r4 << { fs'4 e1 ds2 }\\{ b4 b4( c) b1 } >> e1.
           }\section	
           }
           \new Staff \relative{\clef bass   \key c \major \time 3/2
