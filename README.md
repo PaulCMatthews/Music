@@ -8,4 +8,6 @@ Silent Worship: An arrangement of a Handel Aria by Arthur Somervell. The song wa
 
 Lascia Ch'io Pianga: another famous Handel aria, from the opera Rinaldo.
 
+If my complaints: Song by John Dowland, from his First Booke of Songes, 1597
+
 
