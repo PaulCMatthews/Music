@@ -26,8 +26,8 @@ altoVoice = \relative c' { \global
 }
 
 verse = \lyricmode {
-  If my com -- plaints could pass -- i -- ons move, 
-  or make love see where -- in I su -- ffer wrong:
+  If my com -- plaints could pas _ -- sions move, 
+  or make love see where -- in I suf -- fer wrong:
   O love I live and _ dye in thee
   thy griefe in my deepe sighs still speakes, 
   yet thou doest hope when I de -- spaire,
@@ -35,12 +35,12 @@ verse = \lyricmode {
   
 }
 verse_rpt=\lyricmode{
-  my pass -- ions were e -- nough to _ prove,
+  my pass -- ions were e -- nough _ to prove,
   that my de -- spayres had go -- vernd  me too long,
   thy wounds do fresh -- ly _  bleed in mee
   my hart for thy un -- kind -- ness breaks, 
   thou saist thou canst my harmes re -- paire,
-  yet for re -- dresse thou letst me still com -- plaine.
+  yet for re -- dresse thou letst* me still com -- plaine.
   
 }
 right = \relative c' {
@@ -101,3 +101,4 @@ pianoPart = \new PianoStaff \with {
   \midi { }
   
 }
+
