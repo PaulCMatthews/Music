@@ -13,3 +13,5 @@ One version uses the lute tablature as the basis for the piano part.
 The other, if-my-complaints_SATB.ly, uses the voice parts to create the piano part.
 
 
+email contact: 
+paul.matthews.debc@gmail.com
