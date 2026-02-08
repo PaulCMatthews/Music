@@ -5,7 +5,6 @@
   subtitle = "First Booke of Songes, 1597"
   subsubtitle = "Piano part based on ATB voice parts"
   composer = "John Dowland"
-  meter = "3/2"
 }
 
 global = {
@@ -14,6 +13,7 @@ global = {
   \time 3/2
   \language  "english"
   \tempo 2=70
+  \override Score.Footnote.annotation-line = ##f
 }
 
 altoVoice = \relative c' { \global
@@ -50,17 +50,18 @@ right = \relative c' {
   \relative d'{ d2 g g g1. g2 f2 bf,4 c d1. 
   ef2 c a d g f c d2. c4 b1.
   f'2 d ef d4. ef8 f4 f g2 ef f2. ef4 d1.
-  r4 d4 e g2 fs4 g2. f4 ef d d1 c2 d1.
-  f2. bf2 a4 bf2. a4 g2 f g2. g4 fs1.
+  a'4\rest d,4 e g2 fs4 g2. f4 ef d d1 c2 d1.
+  f2. bf2 a4 bf2. a4 g2 
+  \footnote #'( 0 . 4) "Lute part has F# here. Take your pick." f g2. g4 fs1.
   r4 bf4 a2. a4 g2. g4 f d bf c d2. c4 b1.
   }
   \\% tenor
-  \relative b {bf2 d c  bf4 g bf2 ef d2 d4 d2 g,4 a1 r4
+  \relative b {bf2 d c  bf4 g bf2 ef d2 d4 d2 g,4 a1 a4\rest
   g4 g1 fs2 g2 d'2 d2 g,2 a2. a4 g1. 
   f2. bf2 a4 bf4. c8 d4 d ef d c bf c2. c4 bf1. 
   g2 c2 d2 (d4) c4 bf a4 g2 a bf a4 g4 a1.
   bf2 d c bf1 c2 d2 ef1 d1.
-  f!2 f2. f4 d1 r4 f,4 g a bf g a2 g1.
+  f!2 f2. f4 d1 a2 g4 a bf g a2 g1.
   }
   >>
   
@@ -75,7 +76,7 @@ left = \relative c {
 }
 
 altoVoicePart = \new Staff \with {
-  instrumentName = "Alto"
+  instrumentName = "Voice"
   midiInstrument = "voice oohs"
 } { \altoVoice }
 \addlyrics { \verse }
@@ -96,8 +97,29 @@ pianoPart = \new PianoStaff \with {
   <<
     \altoVoicePart
     \pianoPart
-          >> }
+          >>
+          
+          
+          }
+          
   \layout { }
   \midi { }
   
+}
+
+\markup {
+  \column {
+    \line { "Can love be rich and yet I want?"}
+\line{"Is love my judge and yet am I condemn’d?"}
+\line{"Thou plenty hast, yet me dost scant,"}
+\line{"Thou made a god, and yet thy power contemn’d"}
+\line{"That I do live it is thy power,"}
+\line{"That I desire it is thy worth,"}
+\line{"If love doth make men’s lives too sour,"}
+\line{"Let me not love, nor live henceforth."}
+\line{"Die shall my hopes, but not my faith"}
+\line{"That you that of my fall may hearers be"}
+\line{"May hear despair which truly saith,"}
+\line{"I was more true to love, than love to me." }
+  }
 }
