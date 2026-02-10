@@ -16,12 +16,19 @@ global = {
   \override Score.Footnote.annotation-line = ##f
 }
 
+\paper {
+  top-margin = 10\mm
+  bottom-margin = 10\mm
+  left-margin = 15\mm
+  right-margin = 15\mm}
+
 Voice = \relative c' { \global
   \repeat volta 2 {
-    d2 a' d c2. b4 a2 a2 g f e1.  \break 
-    c'2 a4 bf2 g4 a1 f2 g e e d1.}
+    d2 a' d c2. b4 a2 a2 g f e1. \break 
+    c'2 a4 bf2 g4 a1 f2 g e e d1.}\break
   \repeat volta 2 {
-  a'2 a a a a4 a2 b4 c1 bf2 a1 r2 c2 a4 bf2 g4 a1 bf2 a d d cs1.  }
+  a'2 a a a a4 a2 b4 c1 bf2 a1 r2 \break
+  c2 a4 bf2 g4 a1 bf2 a d d cs1.  }
   \repeat volta 2 {a4. a8 a4 a2 a4 a2 a4 a2. b4. b8 b4 b2 b4 b2 b4 b2 b4
   a2 a4 a a a a2 a a4 g fs4. g8 a4 b4 g4 a4 fs1 d2\fermata  }
 }
@@ -47,7 +54,7 @@ right = \relative c' {
   <<
   % alto
   \relative d'{ f2 f4 e f4 g4 a2. 
-     \footnote #'( 0 . 3.5) "Lute part has B flat in 1597 version, amended to G in 1613 edition" 
+     \footnote #'( 0 . 3.5) \markup{ " Lute part has B"\flat" in 1597 version, amended to G in 1613 edition"  } % "Lute part has B flat \markup{\flat} U+266D in 1597 version, amended to G in 1613 edition" 
                  g4 f2 c'2 c a a1. 
   a4. g8 f4 g4. f8 e4  f2. e4 d2 d d cs d1. 
   cs4. d8 e2 d4 cs d2 e4 f2 d4 e f g a g f e1.
@@ -101,12 +108,13 @@ pianoPart = \new PianoStaff \with {
           >>          
           }
           
-  \layout { }
+  \layout { % line-width=#185 }
+  }
   \midi { }
   
 }
 
-\markup {
+\markup { 
 \column {
 \line { "Was I so base that I might not aspire"}
 \line{"Unto those high joyes which she holds from me?"}
