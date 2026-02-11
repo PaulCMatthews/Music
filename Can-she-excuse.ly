@@ -5,6 +5,7 @@
   subtitle = "First Booke of Songes, 1597, 1613"
   subsubtitle = "Piano part loosely based on lute tablature"
   composer = "John Dowland"
+  tagline = "Music engraving using LilyPond 2.24.4—www.lilypond.org    by   Paul Matthews, February 2026"
 }
 
 global = {
@@ -30,7 +31,7 @@ Voice = \relative c' { \global
   a'2 a a a a4 a2 b4 c1 bf2 a1 r2 \break
   c2 a4 bf2 g4 a1 bf2 a d d cs1.  }
   \repeat volta 2 {a4. a8 a4 a2 a4 a2 a4 a2. b4. b8 b4 b2 b4 b2 b4 b2 b4
-  a2 a4 a a a a2 a a4 g fs4. g8 a4 b4 g4 a4 fs1 d2\fermata  }
+  a2 a4 a a a a2 a a4 g fs4. g8 a4 b4 g4 a4 fs1 d2  }
 }
 
 verse = \lyricmode {
@@ -64,7 +65,7 @@ right = \relative c' {
   
   }
   \\% tenor
-  \relative b {a2 a1 <f' c>2. s4   c2 <f a,>2 <e c>2 <d a>2 <e cs>1.
+  \relative b {a2 a1 <f' c>2. s4   c2 f2 <e c>2 <d a>2 <e cs>1.
                <e a,>2 a,4 <d bf>2 s4 a2. s2. <bf g>2 s2 s2 a1.
                s1. a2 a4 a2. c1 <d bf>2 <cs a>1.
                <e a,>2 a,4 <d g,>2 s4 c1 <e bf>2 s1. <e cs>1.
@@ -77,7 +78,7 @@ right = \relative c' {
 
 left = \relative c {
   \global
-  d2 d2. e4 f1. f2 c d a1. | a2 d4 g,2 c4 f,1 bf2 g2 a1 d1. |
+  d2 d2. e4 f1. <a f>2 c, d a1. | a2 d4 g,2 c4 f,1 bf2 g2 a1 d1. |
   a'2. g4 f4 e d2 cs4 d2. c!2. f,4 g2 a1. |
   a2 d4 g,2 c4 f,1 g2 a2 bf1 a1. |
   f'1 f2 f1 f2 g1 g2 g1 g2 a2. a,2. a1 a2 d4. e8 fs4 g4 e2 d2. d2.
