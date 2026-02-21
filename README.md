@@ -2,7 +2,7 @@ Music files, written with Lilypond
 
 Each piece has a Lilypond file (.ly) and a pdf file. 
 
-The songs are set in a key suitable for low voice, alto or baritone.
+Most of the songs are set in a key suitable for low voice, alto or baritone.
 
 Silent Worship: An arrangement of a Handel Aria by Arthur Somervell. The song was performed by Gwyneth Paltrow and Ewan McGregor in the 1996 film of Jane Austen's Emma.
 
