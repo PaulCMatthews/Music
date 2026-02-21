@@ -14,6 +14,7 @@ The other, if-my-complaints_SATB.ly, uses the voice parts to create the piano pa
 
 Can she excuse: Another song from Dowland's First Booke.
 
+Io sento nel petto: duet for soprano and tenor from Vivaldi's opera Farnace.
 
 email contact: 
 paul.matthews.debc@gmail.com
