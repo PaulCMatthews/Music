@@ -60,9 +60,9 @@ With a glo -- ry of gol -- den hair. }
      << % Intro
        \override Voice.Rest.Y-offset = #0 % for upper voice rests, lower voice use s
        {b'8 c16 d c8 b8 a d b8\rest fs g a16 b c8 a fs16 e d8 b4\rest
-       b'8 c16 b a8 g c b4 a8 d, g'4 fs8 g d4 c8 b a16 g16 fs8. g16 g4. b8\rest}\\
+       b'8 c16 b a8 g c b4 a8 r g'4 fs8 g d4 c8 b a16 g16 fs8. g16 g4. b8\rest}\\
        {d,4 e8 d fs4 s8 fs e4 e4 d8 a8 s4
-       d4 d d e d8 d'8 c4 g8 fs16 e d4 d8 e d4 <d b>4. s8 }
+       d4 d d e g8 d'8 c4 g8 fs16 e d4 d8 e d4 <d b>4. s8 }
      >>
      << % Did
        {g4 fs8 g8 a4 fs4 g4 a8 g8 g8 fs d' c } \\
@@ -125,5 +125,6 @@ With a glo -- ry of gol -- den hair. }
 
 \layout{} % print pdf 
 \midi{ } % produce midi file, played using tools -> midi
+
 
 } % ends score 
